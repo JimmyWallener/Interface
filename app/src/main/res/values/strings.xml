@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Contactlist with vibrator, night mode</string>
+    <string name="checkBox">Click me!</string>
+    <string name="nightMode">Night Mode</string>
+    <string-array name="contactNames">
+        <item>John Doe</item>
+        <item>Mr T</item>
+        <item>Tom Jones</item>
+        <item>Mr Miyagi</item>
+        <item>Elon Musk</item>
+        <item>Rambo</item>
+    </string-array>
+    <string-array name="contactAddress">
+        <item>Mayfield road 12</item>
+        <item>Lincoln road 23</item>
+        <item>Funny road 23</item>
+        <item>Making road 12</item>
+        <item>Almost road 213</item>
+        <item>Yaaaay road 99</item>
+    </string-array>
+</resources>
