@@ -41,7 +41,7 @@
     <fragment
 
         android:id="@+id/detailsFragment"
-        class="se.gritacademy.schoolproject.DetailsFragment"
+        class="se.gritacademy.schoolproject.AddressFragment"
         android:layout_width="271dp"
         android:layout_height="409dp"
 

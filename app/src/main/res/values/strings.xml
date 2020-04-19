@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Contactlist with vibrator, night mode</string>
-    <string name="checkBox">Click me!</string>
+    <string name="app_name">School Project</string>
     <string name="nightMode">Night Mode</string>
     <string-array name="contactNames">
         <item>John Doe</item>

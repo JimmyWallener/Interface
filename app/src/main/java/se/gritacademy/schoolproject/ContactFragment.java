@@ -1,7 +1,6 @@
 package se.gritacademy.schoolproject;
 
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,8 +34,8 @@ public class ContactFragment extends ListFragment {
     @Override
     public void onListItemClick(ListView l, View v, int position, long id){
 
-        DetailsFragment text = (DetailsFragment)getFragmentManager().findFragmentById(R.id.detailsFragment);
-        text.change("Name: " + contacts[position], "Adress: " + addresses[position]);
+        AddressFragment text = (AddressFragment)getFragmentManager().findFragmentById(R.id.detailsFragment);
+        text.changeText("Name: " + contacts[position], "Adress: " + addresses[position]);
         getListView().setSelector(android.R.color.holo_orange_light);
 
 
